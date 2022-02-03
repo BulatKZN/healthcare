@@ -1,0 +1,41 @@
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.logo {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 47px;
+  color: #40A3F8;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu-item {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6E5F5F;
+  padding-right: 50px;
+}
+
+.menu-item:hover {
+  color:#40A3F8;
+  transition: ease-in-out 0.4s; 
+}
+
+.header-btn {
+  font-size: 15px;
+  line-height: 22px;
+  color: #fff;
+  padding: 12px 28px;
+}

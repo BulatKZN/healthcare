@@ -1,9 +1,13 @@
-
+.header {
+  background-color: #E5E5E5;
+  margin-bottom: 75px;
+}
 .header-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 24px;
+  padding-top: 24px;
+  margin-bottom: 254px;
 }
 
 .logo {
@@ -39,3 +43,83 @@
   color: #fff;
   padding: 12px 28px;
 }
+
+.header-content {
+  display: flex;
+}
+
+.header-content-location {
+  margin-right: 57px;
+}
+
+.header-content-location-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 70px;
+}
+
+.header-content-location-title span {
+  color: blue;
+}
+
+.header-content-location-subtitle {
+  color: rgba(117, 117, 117, 0.46);
+  font-size: 14px;
+  line-height: 30px;
+  margin-bottom: 50px;
+
+}
+
+.header-content-location-item {
+  display: flex;
+  background-color: #fff;
+  padding: 13px;
+  border-radius: 5px;
+}
+
+.header-content-input {
+  font-size: 14px;
+  background-color: rgba(245, 246, 250, 0.52);
+  padding: 18px 72px 18px 30px;
+  border: none;
+  outline: none;
+  margin-right: 19px;
+}
+
+.header-place-wrapper {
+    display: flex;
+    background-color: rgba(245, 246, 250, 0.52);
+    padding: 18px 72px 18px 30px;
+    border: none;
+    outline: none;
+    margin-right: 30px;
+}
+
+.place-icon {
+  margin-right: 10px;
+}
+
+.header-name-place {
+  border: none;
+  outline: none;
+}
+
+.header-content-location-btn {
+  background-color: #40A3F8;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  height: 59px;
+  width: 70px;
+}
+
+.header-content-contacts-photo {
+  width: 100%;
+  height: 100%;
+
+}
+
+
+
+ 
+

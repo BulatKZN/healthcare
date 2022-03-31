@@ -1,0 +1,152 @@
+.advantage {
+    display: flex;
+    padding-left: 135px;
+}
+
+.advantage-profile {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.advantage-list-title {
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 49px;
+    margin-bottom: 24px;
+}
+
+.advantage-list-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 3px;
+}
+
+.advantage-list-item {
+    display: flex;
+    margin-bottom: 14px;
+}
+
+.advantage-list-item:nth-child(5) {
+    margin-bottom: 34px;
+}
+
+.advantage-list-item-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 18px;
+}
+
+.btn-advantage {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.btn-advantage:hover {
+    background-color: blueviolet;
+    color: brown;
+}
+
+.btn-advantage-text {
+    font-size: 16px;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+.advantage-profile-card {
+    position: absolute;
+    top: 250px;
+    left: -80px;
+    padding: 34px 25px 20px 17px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 270px;
+}
+
+.advantage-profile-card-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.advantage-profile-small-photo {
+    width: 50px;
+    height: 50px;
+}
+
+.advantage-profile-small-photo img {
+    width: 100%;
+}
+
+.advantage-profile-card-name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.advantage-profile-card-grade {
+    display: flex;
+    align-items: center;
+}
+
+.advantage-profile-card-speciality {
+    font-size: 12px;
+    color: rgba(61, 61, 63, 0.4);
+    line-height: 18px;
+    margin-right: 4px;
+}
+
+.advantage-profile-card-grade-number {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: 3px;
+}
+
+.advantage-profile-card-experience {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.advantage-profile-card-experience-item {
+    margin-right: 18px;
+}
+
+.advantage-profile-card-experience-item:nth-child(1) {
+    margin-left: 16px;
+}
+
+.advantage-profile-card-experience-item-text {
+    font-size: 12px;
+    color:  #A0A2B3;
+}
+
+.advantage-profile-card-experience-item-number {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+
+.advantage-profile-card-location {
+    display: flex;
+    margin-left: 46px;
+}
+
+.advantage-profile-card-location-icon {
+    margin-right: 5px;
+}
+
+
+.advantage-profile-card-location-text {
+    font-size: 12px;
+    color: #3D3D3F;
+    line-height: 18px;
+}
+

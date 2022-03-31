@@ -23,3 +23,8 @@ body {
 .menu-item:hover {
     cursor: pointer;
 }
+
+.none {
+    display: none;
+}
+

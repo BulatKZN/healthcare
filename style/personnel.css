@@ -1,0 +1,71 @@
+.personnel {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.personnel-title {
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 49px;
+    margin-bottom: 47px;
+}
+
+.personnel-subtitle {
+    color: rgba(61, 61, 63, 0.7);
+    line-height: 30px;
+    margin-bottom: 67px;
+}
+
+.personell-card {
+    margin-bottom: 58px;
+}
+
+.personnel-card-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.personnel-card-item {
+    padding: 10px 10px 20px 10px;
+    background-color: #fff;
+    border: 1px solid #143983;
+    border-radius: 10px;
+}
+
+.personnel-photo {
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.personnell-card-name {
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.personnel-card-special {
+    color: #999;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 25px;
+}
+
+.fa-brands {
+    margin-right: 5px;
+}
+
+.fa-brands:last-child {
+    margin-right: 0;
+}
+
+.fa-facebook {
+    color: #4D77CF;
+}
+
+.fa-twitter {
+    color: rgb(117, 20, 20);
+}
+
+.personnel-btn {
+    color: #fff;
+    padding: 9px 21px;
+}

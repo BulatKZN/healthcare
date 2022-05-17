@@ -1,16 +1,55 @@
-$('img.img-svg').each(function () {
-    var $img = $(this);
-    var imgClass = $img.attr('class');
-    var imgURL = $img.attr('src');
-    $.get(imgURL, function (data) {
-        var $svg = $(data).find('svg');
-        if (typeof imgClass !== 'undefined') {
-            $svg = $svg.attr('class', imgClass + ' replaced-svg');
-        }
-        $svg = $svg.removeAttr('xmlns:a');
-        if (!$svg.attr('viewBox') && $svg.attr('height') && $svg.attr('width')) {
-            $svg.attr('viewBox', '0 0 ' + $svg.attr('height') + ' ' + $svg.attr('width'))
-        }
-        $img.replaceWith($svg);
-    }, 'xml');
-});
+const sliderLine = document.querySelector(".specification-slider-line");
+const nextBtn = document.querySelector(".btn-next");
+const prevBtn = document.querySelector(".btn-prev");
+const dots = document.querySelectorAll(".dot");
+
+let position = 0,
+    dotIndex = 0;
+
+// Function
+
+
+const nextSlide = () => {
+    if (position < ((dots.length - 1) * 360)) {
+        position += 360;
+        dotIndex++
+    } else {
+        position = 0;
+        dotIndex = 0;
+    }
+    sliderLine.style.left = -position + "px";
+    thisSlide(dotIndex)
+}
+
+const prevSlide = () => {
+    if (position > 0) {
+        position -= 360;
+        dotIndex--
+    } else {
+        position = ((dots.length - 1) * 360);
+        dotIndex = dots.length - 1;
+    }
+    sliderLine.style.left = -position + "px";
+    thisSlide(dotIndex)
+}
+
+const thisSlide = (index) => {
+    for (let dot of dots) {
+        dot.classList.remove("active")
+    }
+    dots[index].classList.add("active")
+}
+
+// Eventlistener
+
+nextBtn.addEventListener("click", nextSlide);
+prevBtn.addEventListener("click", prevSlide);
+
+dots.forEach((dot, index) => {
+    dot.addEventListener("click", () => {
+        position = 360 * index;
+        sliderLine.style.left = -position + "px";
+        dotIndex = index;
+        thisSlide(dotIndex);
+    })
+})

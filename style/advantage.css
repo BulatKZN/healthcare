@@ -1,7 +1,9 @@
 .advantage {
     display: flex;
     padding-left: 135px;
+    margin-bottom: 143px;
 }
+
 
 .advantage-profile {
     position: relative;
@@ -123,7 +125,7 @@
 
 .advantage-profile-card-experience-item-text {
     font-size: 12px;
-    color:  #A0A2B3;
+    color: #A0A2B3;
 }
 
 .advantage-profile-card-experience-item-number {
@@ -149,4 +151,3 @@
     color: #3D3D3F;
     line-height: 18px;
 }
-

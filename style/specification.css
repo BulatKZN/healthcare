@@ -1,0 +1,126 @@
+.specification {
+    margin-bottom: 121px;
+}
+
+.specification-title {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.specification-subtitle {
+    color: rgba(61, 61, 63, 0.7);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 75px;
+}
+
+
+.specification-slider-line {
+    display: flex;
+    position: relative;
+    left: 0;
+    text-align: center;
+    transition: 1s;
+}
+
+.specification-content-item {
+    border-radius: 10px;
+    background-color: #fff;
+    min-width: 360px;
+    cursor: pointer;
+}
+
+.specification-content-item:hover .hover-line {
+    opacity: 1;
+    transition: 0.7s;
+
+}
+
+.hover-line {
+    background-color: #40A3F8;
+    height: 18px;
+    border-radius: 0 0 10px 10px;
+    opacity: 0;
+}
+
+.specification-content-item .specification-content-item-icon {
+    margin-top: 61px;
+    margin-bottom: 20px;
+}
+
+.specification-content-item-title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 23px;
+}
+
+.specification-content-item-text {
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999;
+    margin-bottom: 13px;
+}
+
+.dots-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.dot {
+    background: rgb(213, 28, 28);
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    margin-right: 15px;
+}
+
+.specification-content-krug-item:last-child {
+    margin-right: 0;
+}
+
+.btn-prev,
+.btn-next,
+.specification-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.active {
+    background: #ffbc69;
+}
+
+.btn-prev,
+.btn-next {
+    padding: 10px;
+    box-shadow: 0 0 5px 1px #a14300;
+}
+
+.btn-prev:hover,
+.dot:hover,
+.btn-next:hover {
+    background: #ffbc69;
+    cursor: pointer;
+}
+
+.btn-prev:active,
+.dot:active,
+.btn-next:active {
+    background: rgb(213, 28, 28);
+}
+
+
+.specification-wrapper {
+    width: 360px;
+    overflow: hidden;
+}
+
+.slider-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 92px;
+}
